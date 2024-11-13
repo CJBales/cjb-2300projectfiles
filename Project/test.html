@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <title>Cecil Bales MusicFacts! Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .song, .album {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2rem;
+        }
+
+        .song-info, .album-info {
+            margin-bottom: 1rem;
+        }
+
+        .song-info p, .album-info p {
+            margin: 0.5rem 0;
+        }
+
+        .song-info .title, .album-info .title {
+            font-weight: bold;
+        }
+
+        .song-info .artist, .album-info .artist {
+            font-style: italic;
+        }
+
+        .song-info .genre, .album-info .genre {
+            color: #888;
+        }
+
+        .album-info .release-date {
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MusicFacts!</h1>
+        <p>Search fascinating facts about songs and albums.</p>
+    </header>
+
+    <section>
+        <h2>Featured Song</h2>
+        <div class="song">
+            <div class="song-info">
+                <p class="title">Song Title: <strong>Bohemian Rhapsody</strong></p>
+                <p class="artist">Artist: <em>Queen</em></p>
+                <p class="genre">Genre: Rock</p>
+                <p class="release-date">Release Date: 1975</p>
+                <p class="description">"Bohemian Rhapsody" is one of Queen's most iconic songs, blending rock, opera, and ballad elements. It was written by lead vocalist Freddie Mercury.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Featured Album</h2>
+        <div class="album">
+            <div class="album-info">
+                <p class="title">Album Title: <strong>The Dark Side of the Moon</strong></p>
+                <p class="artist">Artist: <em>Pink Floyd</em></p>
+                <p class="genre">Genre: Progressive Rock</p>
+                <p class="release-date">Release Date: 1973</p>
+                <p class="description">"The Dark Side of the Moon" is a concept album by Pink Floyd, exploring themes of mental illness, existentialism, and the human condition. It remains one of the best-selling albums of all time.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; C.J. Bales Final Project</p>
+    </footer>
+</body> 
+</html>

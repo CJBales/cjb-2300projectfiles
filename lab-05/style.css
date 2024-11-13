@@ -1,0 +1,42 @@
+table {
+    margin: auto;
+    background-color: rgb(192, 167, 131);
+    box-shadow: 5px 5px rgba(39, 32, 21, 0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    background-color: rgb(212, 192, 163);
+    box-shadow: 5px 5px rgba(39, 32, 21, 0.5);
+
+}
+td img {
+    box-shadow: 5px 5px rgba(39, 32, 21, 0.5);
+}
+h1 {
+    text-align: center;
+    background-color: rgb(192, 167, 131);
+    box-shadow: 5px 5px rgba(39, 32, 21, 0.5);
+    padding: 10px;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color: rgb(167, 137, 93);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRga71YKYRJsTIo2aNxaA7fFfDWPBOcActp5A&s");
+}
+
+footer {
+    background-color: rgb(192, 167, 131);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 30%;
+    box-shadow: 5px 5px rgba(39, 32, 21, 0.5);
+}
